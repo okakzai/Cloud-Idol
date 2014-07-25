@@ -1,0 +1,1 @@
+<center>Tuna Server &copy; 2011 | Developed by <a href="http://www.behance.net/okakzai" title="Freelance Web Developer">Zainal Abidin</a></center>

@@ -1,0 +1,65 @@
+
+/* simple css-based tooltip */
+div.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+#myform {
+	border:1px outset #ccc;
+	background:#fff url(img/h600.png) repeat-x;
+	padding:20px;
+	margin:20px 0;
+	width:350px;
+	-moz-border-radius:4px;
+}
+
+#myform h3 {
+	text-align:center;
+	margin:0 0 10px 0;
+}
+
+/* http://www.quirksmode.org/css/forms.html */
+#inputs label, #inputs input, #inputs textarea, #inputs select {
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#inputs label {
+	text-align: right;
+	width: 75px;
+	padding-right: 20px;
+}
+
+#inputs br {
+	clear: left;
+}
+
+
+/* end tooltip styling */
+body {
+	padding:150px 50px;
+	font-family:"Lucida Grande","Lucida Sans Unicode","bitstream vera sans","trebuchet ms",verdana;
+}
+
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+
